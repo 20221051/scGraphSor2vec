@@ -1,1 +1,2 @@
-## scGraphSor2vec
+## models
+scGraphSor2vec model
