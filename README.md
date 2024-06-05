@@ -6,7 +6,7 @@ and develop a model that functions even with **unseen external data**. <br/>
 We introduce single-cell graph samples and aggregation with cor2vec (scGraphSor2vec). scGraphSor2vec is structured into four key stages: <br/>
 embedding, cor2vec, weighted graph sample and aggregation (GraphSAGE), and a linear classifier. <br/>
 
-* Four key steps
+* Four key steps <br/>
   Embedding : PCA (each cell and gene) <br/>
   Cor2vec : Cor2vec specifically adopted the skip-gram approach of Word2vec.<br/>
   We aimed to select cells and genes with a PCC (Pearson Correlation Coefficient) above a certain level to provide weighted information.<br/>
