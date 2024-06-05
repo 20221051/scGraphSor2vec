@@ -19,7 +19,7 @@ for **classifying cell types** in human and mouse single-cell RNA-seq data.<br/>
 We can classify 
 
 ## Data
-* **Single-cell** data <br/>
+* **Single-cell data** <br/>
 Human : 10 tissues with internal and external data <br/>
 Mouse : 12 tissues with internal and external data <br/>
 
