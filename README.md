@@ -7,11 +7,11 @@ We introduce single-cell graph samples and aggregation with cor2vec (scGraphSor2
 embedding, cor2vec, weighted graph sample and aggregation (GraphSAGE), and a linear classifier. <br/>
 
 * **Four key steps** <br/>
-  Embedding : PCA (each cell and gene) <br/>
-  Cor2vec : Cor2vec specifically adopted the skip-gram approach of Word2vec.<br/>
+  **Embedding** : PCA (each cell and gene) <br/>
+  **Cor2vec** : Cor2vec specifically adopted the skip-gram approach of Word2vec.<br/>
   We aimed to select cells and genes with a PCC (Pearson Correlation Coefficient) above a certain level to provide weighted information.<br/>
-  GraphSAGE : Cells and genes were configured as nodes, with correlations as edges.<br/>
-  Linear classifier : Classification of cell types based on the characteristics of single-cell data.<br/>
+  **GraphSAGE** : Cells and genes were configured as nodes, with correlations as edges.<br/>
+  **Linear classifier** : Classification of cell types based on the characteristics of single-cell data.<br/>
 
 We developed scGraphSor2vec, a method that combined supervised deep learning with weighted GraphSAGE and cor2vec approaches, <br/>
 for **classifying cell types** in human and mouse single-cell RNA-seq data.<br/>
